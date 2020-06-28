@@ -1,11 +1,30 @@
-<!DOCTYPE html>
-
-<html>
+<!DOCTYPE html><!--ドキュメントタイプを宣言する(HTML5で作成されたものであることを宣言)-->
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"><!--metaタグで文字コードをUTF-8に設定-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_hands_on</title>
+</head>
 <body>
+    <div align="center"><!--divタグ align="ceter"-->
+        <h1>Okada web page</h1><!--ページ上部見出し-->
+        <table><!--tableタグ始-->
+            <tr>
+                <td><img src="./images/gazou.png" alt=""></td><!--画像を入れる-->
+                <td>
+                    <p><font size="5">name：Daiki Okada</font></p><!--name(pタグで囲いfontタグでsizeを5に)-->
+                    <p><font size="5">birthday： 1998/10/18</font></p><!--birthday(fontタグでsizeを5に)-->
+                    <p><font size="5">comment</font></p><!--comment(fontタグでsizeを5に)-->
+                    <div><!--コメントを入れる領域を用意(divタグ)-->
+                        Hello World!<!--ここにコメント本文-->
+                    </div>
+                    <br>
+                    <a href="profile.html"><font size="5">profile</font></a><br><!--profile.htmlへのリンク-->
+                    <a href="fjejkdf.html"><font size="5">404error</font></a><br><!--存在しないページへのリンク-->
 
-<h1>Hello World</h1>
-<p>we are cdsl</p>
-<p>Hands-on1 completed</p>
-
+                </td>
+            </tr>
+        </table><!--tableタグ終-->
+    </div>
 </body>
 </html>
